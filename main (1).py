@@ -8,7 +8,7 @@ while again=='Y'or'y':
   again='N'
   print(tam) 
 
-#loop for alt lines
+#new loop for alt lines
   convo_list_1 = ['Hi, Welcome to use cipher-text translational system--V.3.0.', 'This dictionary can translat between eng and encrpition code', 'Which dictionary you want to use??']
   for each_convo in convo_list_1:
     print(each_convo)
@@ -33,7 +33,7 @@ while again=='Y'or'y':
       
       
       
-#       tam = ('\n')  #換行
+      tam = ('\n')  #換行
       
       #-----------------------------
       
@@ -146,6 +146,7 @@ while again=='Y'or'y':
       print(tam)  #換行
       print('What text you want to translate with?')
       message_1 = input()
+
       
       tam = ('\n')  #換行
       print(tam)  #換行
@@ -331,12 +332,10 @@ while again=='Y'or'y':
   
   if    dictionary_choice ==3 :
     def remind():
-      print('Ok, please type your input by list.')
-      print('For example, if you choice')
-      print(' (dec 十進制)(bin 二進制) (hix十六進制)')
-      print('Pease type by list, like 97,98,99 ')
-      print('or 1100001,1100010,1100011 ')
-      print('or 5E,4C,3F')
+      convo_list_2 = ['Ok, please type your input by list.', 'For example, if you choice', ' (dec 十進制)(bin 二進制) (hix十六進制)', 'Pease type by list, like 97,98,99 ', 'or 1100001,1100010,1100011 ', 'or 5E,4C,3F']
+
+      
+  
       print(tam)  #換行
       print('But if your input is text, ignore this remind :)')
       
